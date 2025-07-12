@@ -660,8 +660,6 @@ KPLIB_intelBuildingClasses = [
     "Land_TentHangar_V1_F",
     "Land_u_Barracks_V2_F",
     "Land_Warehouse_03_F",
-	//Mehland
-     //MEHLAND HOUSES
     "Land_rnc_apt_v1_15x15L_c1_f3",
     "Land_rnc_apt_v1_15x15L_c1_f4",
     "Land_rnc_apt_v1_15x15L_c1_f5",

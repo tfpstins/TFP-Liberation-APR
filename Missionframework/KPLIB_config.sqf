@@ -52,7 +52,7 @@
     28 = SFP (Woodland)
     29 = SFP (Desert)
     30 = LDF (Contact DLC)
-    31 = CUP Norwegian Armed Forces
+	31 = CUP Norwegian Armed Forces
 */
 KPLIB_presetPlayer = 31;
 
@@ -121,8 +121,16 @@ KPLIB_presetCivilians = 7;
     7  = Unsung US arsenal preset
     8  = SFP arsenal preset
     9  = BWMod arsenal preset
+	10 = vanilla_nato_mtp preset
+	11 = vanilla_nato_tropic preset
+	12 = vanilla_nato_wdl preset
+	13 = vanilla_csat_hex preset
+	14 = vanilla_csat_ghex preset
+	15 = vanilla_aaf preset
+	16 = vanilla_ldf preset
+	17 = cup_norwegian preset
 */
-KPLIB_presetArsenal = 1;
+KPLIB_presetArsenal = 17;
 
 
 /*

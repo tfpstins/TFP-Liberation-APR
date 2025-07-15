@@ -37,6 +37,7 @@ switch (KPLIB_presetPlayer) do {
     case 28: {[] call compile preprocessFileLineNumbers "presets\players\sfp_wdl.sqf";};
     case 29: {[] call compile preprocessFileLineNumbers "presets\players\sfp_des.sqf";};
     case 30: {[] call compile preprocessFileLineNumbers "presets\players\enoch.sqf";};
+    case 31: {[] call compile preprocessFileLineNumbers "presets\players\cup_norwegian.sqf";};	
     default  {[] call compile preprocessFileLineNumbers "presets\players\custom.sqf";};
 };
 
@@ -177,7 +178,7 @@ KPLIB_b_inf_classes             = KPLIB_b_inf_classes               arrayInterse
 /*
     Opfor squad compositions
 */
-KPLIB_o_squadStd        = [KPLIB_o_squadLeader, KPLIB_o_medic, KPLIB_o_machinegunner, KPLIB_o_heavyGunner, KPLIB_o_medic, KPLIB_o_marksman, KPLIB_o_grenadier, KPLIB_o_riflemanLAT];
+KPLIB_o_squadStd        = [KPLIB_o_squadLeader, KPLIB_o_medic, KPLIB_o_rifleman, KPLIB_o_rifleman, KPLIB_o_machinegunner, KPLIB_o_marksman, KPLIB_o_grenadier, KPLIB_o_riflemanLAT];
 KPLIB_o_squadInf        = [KPLIB_o_squadLeader, KPLIB_o_medic, KPLIB_o_machinegunner, KPLIB_o_heavyGunner, KPLIB_o_heavyGunner, KPLIB_o_marksman, KPLIB_o_sharpshooter, KPLIB_o_sniper];
 KPLIB_o_squadTank       = [KPLIB_o_squadLeader, KPLIB_o_medic, KPLIB_o_machinegunner, KPLIB_o_riflemanLAT, KPLIB_o_riflemanLAT, KPLIB_o_riflemanLAT, KPLIB_o_atSpecialist, KPLIB_o_atSpecialist];
 KPLIB_o_squadAir        = [KPLIB_o_squadLeader, KPLIB_o_medic, KPLIB_o_machinegunner, KPLIB_o_riflemanLAT, KPLIB_o_riflemanLAT, KPLIB_o_aaSpecialist, KPLIB_o_aaSpecialist, KPLIB_o_aaSpecialist];

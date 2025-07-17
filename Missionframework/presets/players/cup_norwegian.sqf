@@ -240,6 +240,9 @@ KPLIB_b_objectsDeco = [
 	["Land_CzechHedgehog_01_old_F",0,0,0],
 	["Land_DragonsTeeth_01_4x2_old_redwhite_F",0,0,0],
 	["Land_QuayConcrete_01_20m_wall_F",0,0,0],
+    ["TFP_Laptop2",0,0,0],
+	["TFP_Laptop3",0,0,0],
+	["TFP_Laptop4",0,0,0],
     ["FIR_Baseplate",0,0,0]	                                
 ];
 

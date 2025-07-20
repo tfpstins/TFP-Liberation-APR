@@ -108,7 +108,9 @@ KPLIB_b_vehLight = [
     ["Flex_CUP_NOR_Boat_Transport",50,0,25],                            // Assault Boat
     ["Flex_CUP_NOR_Lifeboat",50,0,25],                                  // Rescue Boat(MEDEVAC)	
     ["Flex_CUP_NOR_RHIB",100,40,25],                                    // RHIB	
-    ["Flex_CUP_NOR_RHIB2Turret",100,80,25]                              // RHIB(MK19)
+    ["Flex_CUP_NOR_RHIB2Turret",100,80,25],                             // RHIB(MK19)
+	["sfp_strb90",150,80,25],                                           // Strb90
+    ["B_SDV_01_F",200,80,25]                                            // SDV (Submersible)
 ];
 
 KPLIB_b_vehHeavy = [
@@ -120,18 +122,21 @@ KPLIB_b_vehHeavy = [
     ["sfp_grkpbv90120",350,800,200],                                    // Grkpbv 90120 (Artillery)	
     ["Flex_CUP_NOR_Leopard2A6",500,500,400],                            // Leopard 2A6
     ["CUP_B_M270_HE_USMC",400,800,300],                                 // M270 MLRS (HE)	
-    ["CUP_B_M270_DPICM_USMC",400,900,300]                               // M270 MLRS (DPICM)
+    ["CUP_B_M270_DPICM_USMC",400,900,300],                              // M270 MLRS (DPICM)
+	["sfp_rbb_norrkoping",800,1000,300]                                 // Norrkoping (Missile)
 ];
 
 KPLIB_b_vehAir = [
     ["Flex_CUP_NOR_Bell412_Transport",225,0,125],                       // Bell-412 (Transport)
 	["Flex_CUP_NOR_Bell412_Armed",225,250,125],                         // Bell-412 (Armed)
-	["Flex_CUP_NOR_Bell412_Armed",225,300,125],                         // Bell-412 (AT)
+	["Flex_CUP_NOR_Bell412_Armed_AT",225,300,125],                      // Bell-412 (AT)
     ["Flex_CUP_NOR_Merlin_HC3",250,0,200],                              // AW101 (Transport)
     ["Flex_CUP_NOR_Merlin_HC3_Armed",250,100,200],                      // AW101 (Armed)
     ["Flex_CUP_NOR_Merlin_HC3_VIV",250,0,200],                          // AW101 (VIV)		
     ["Flex_CUP_NOR_MH60S_Armed",300,100,200],                           // MH-60S Seahawk (M3M)
     ["sfp_hkp16_medevac",300,0,200],                                    // UH-60 Blackhawk (MEDEVAC)
+	["sfp_uav01",200,0,450],                                            // Ugglan UAV (w/Lauchpad)	
+	["sfp_uav03",300,0,450],                                            // Ornen UAV
 	["CUP_B_USMC_DYN_MQ9",500,600,450],                                 // MQ-9B SeaGuardian	
 	["FIR_F16C",700,700,450],                                           // F-16C
     ["FIR_F35B_Standard",800,750,450]                                   // F-35B Lightning II
@@ -145,8 +150,8 @@ KPLIB_b_vehStatic = [
     ["Flex_CUP_NOR_Stinger_AA_pod",50,100,0],                           // FIM-92 (DMS)
     ["Flex_CUP_NOR_Mortar",80,150,0],                                   // L16A2 81mm Mortar
     ["Flex_CUP_NOR_M119",100,200,0],                                    // M119 Howitzer
-    ["Flex_CUP_NOR_Radar_System",600,0,0],                              // AN/MPQ-105 Radar
-    ["Flex_CUP_NOR_SAM_System",900,500,0]                               // MIM-104 Patriot
+    ["Flex_CUP_NOR_Radar_System",600,0,100],                            // AN/MPQ-105 Radar
+    ["Flex_CUP_NOR_SAM_System",900,500,100]                             // MIM-104 Patriot
 ];
 
 KPLIB_b_objectsDeco = [
@@ -154,7 +159,7 @@ KPLIB_b_objectsDeco = [
     ["Land_Cargo_House_V1_F",0,0,0],
     ["Land_Cargo_Patrol_V1_F",0,0,0],
     ["Land_Cargo_Tower_V1_F",0,0,0],
-    ["Flag_Mehland_F",0,0,0],
+    ["TFPflag",0,0,0],
     ["Land_Medevac_house_V1_F",0,0,0],
     ["Land_Medevac_HQ_V1_F",0,0,0],
     ["CamoNet_BLUFOR_open_F",0,0,0],
@@ -373,8 +378,10 @@ KPLIB_b_vehToUnlock = [
 	"sfp_lvkv90c",                                             // Lvkv 90C IFV (w/Radar)
 	"sfp_grkpbv90120",                                         // Grkpbv 90120 (Artillery)
 	"Flex_CUP_NOR_Leopard2A6",                                 // Leopard 2A6
-	"Flex_CUP_NOR_Bell412_Armed",                              // Bell-412 (AT)
-	"CUP_B_M270_DPICM_USMC",                                   // M270 MLRS (DPICM)	
+	"Flex_CUP_NOR_Bell412_Armed_AT",                           // Bell-412 (AT)
+	"CUP_B_M270_DPICM_USMC",                                   // M270 MLRS (DPICM)
+	"sfp_rbb_norrkoping",                                      // Norrkoping (Missile)
+	"sfp_strb90",                                              // Strb 90	
 	"CUP_B_USMC_DYN_MQ9",                                      // MQ-9B SeaGuardian
 	"FIR_F16C",                                                // F-16C
 	"FIR_F35B_Standard"                                        // F-35B Lightning II

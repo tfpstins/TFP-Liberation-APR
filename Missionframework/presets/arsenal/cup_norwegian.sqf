@@ -465,6 +465,9 @@ KPLIB_arsenalItems = [
 	"CUP_I_B_PMC_Unit_31",
 	"CUP_I_B_PMC_Unit_32",
 	"CUP_I_B_PMC_Unit_35",
+    "CUP_U_CRYE_RGR_Full",
+    "CUP_U_CRYE_RGR_Roll",
+    "CUP_U_I_GUE_Anorak_02",
 
     // Headgear
 	"NOR_Opscore_SF",
@@ -511,6 +514,15 @@ KPLIB_arsenalItems = [
 	"sfp_ollesbrorsa_gray",
 	"sfp_ollesbrorsa_gray_alt",
 	"sfp_ollesbrorsa_green_alt",
+    "CUP_H_USA_Cap_AU_DEF",
+    "CUP_H_PMC_Cap_Back_Tan",
+    "CUP_H_PMC_Cap_Back_Grey",
+    "CUP_H_USA_Cap_NY_DEF",
+    "CUP_H_USA_Cap_UT_DEF",
+    "CUP_H_USA_Cap_TREAD_DEF",
+    "FIR_JHMCS",
+    "H_PilotHelmetHeli_B",
+    "H_HelmetCrew_I",
 	
     // Facegear
 	"CUP_RUS_Balaclava_blk",
@@ -582,6 +594,17 @@ KPLIB_arsenalItems = [
 	"V_TacChestrig_oli_F",
 	"CUP_V_B_GER_Carrier_Rig_2_Brown",
 	"CUP_V_B_GER_Carrier_Rig_3_Brown",
+    "CUP_V_B_Ciras_Black",
+    "CUP_V_B_Ciras_Black2",
+    "CUP_V_B_Ciras_Khaki",
+    "CUP_V_B_Ciras_Khaki2",
+    "CUP_V_B_Ciras_Olive",
+    "CUP_V_B_Ciras_Olive2",
+    "CUP_V_CPC_communicationsbelt_rngr",
+    "CUP_V_CPC_Fastbelt_rngr",
+    "CUP_V_CPC_medicalbelt_rngr",
+    "CUP_V_CPC_tlbelt_rngr",
+    "CUP_V_CPC_weaponsbelt_rngr",
 
 	// NVGs
 	"CUP_NVG_PVS15_black",											    // AN-PVS15

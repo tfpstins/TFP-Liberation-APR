@@ -72,7 +72,8 @@ KPLIB_o_militiaVehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 KPLIB_o_armyVehicles = [
     "CUP_O_Tigr_233014_PK_CHDKZ",                                       // Gaz Tigr STS(PK)
-    "CUP_O_Tigr_233014_PK_CHDKZ",                                       // Gaz Tigr STS(PK)	
+    "CUP_O_Tigr_233014_PK_CHDKZ",                                       // Gaz Tigr STS(PK)
+    "CUP_O_Hilux_DSHKM_CHDKZ",                                          // Hilux (DShKM)	
     "CUP_O_Hilux_DSHKM_CHDKZ",                                          // Hilux (DShKM)
 	"CUP_O_Hilux_AGS30_CHDKZ",                                          // Hilux (AGS-30)
     "CUP_O_Hilux_SPG9_CHDKZ",                                           // Hilux (SPG-9)
@@ -92,11 +93,14 @@ KPLIB_o_armyVehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 KPLIB_o_armyVehiclesLight = [
     "CUP_O_Hilux_DSHKM_CHDKZ",                                          // Hilux (DShKM)
+    "CUP_O_Hilux_DSHKM_CHDKZ",                                          // Hilux (DShKM)	
     "CUP_O_Hilux_zu23_CHDKZ",                                           // Hilux (ZU-23)	
     "CUP_O_Hilux_SPG9_CHDKZ",                                           // Hilux (SPG-9)
+    "CUP_O_Tigr_233014_PK_CHDKZ",                                       // Gaz Tigr STS(PK)
     "CUP_O_Tigr_233014_PK_CHDKZ",                                       // Gaz Tigr STS(PK)	
     "CUP_O_MTLB_pk_ChDKZ",                                              // MT-LB LV
     "CUP_O_BRDM2_CHDKZ",                                                // BRDM-2
+    "CUP_O_BRDM2_CHDKZ",                                                // BRDM-2	
     "CUP_O_BMP2_CHDKZ"                                                  // BMP-2
 ];
 
@@ -106,10 +110,12 @@ KPLIB_o_battleGrpVehicles = [
     "CUP_O_Hilux_DSHKM_CHDKZ",                                          // Hilux (DShKM)
 	"CUP_O_Hilux_AGS30_CHDKZ",                                          // Hilux (AGS-30)
     "CUP_O_Hilux_SPG9_CHDKZ",                                           // Hilux (SPG-9)
-	"CUP_O_Ural_CHDKZ",                                                 // Ural 
+	"CUP_O_Ural_CHDKZ",                                                 // Ural
+	"CUP_O_Ural_CHDKZ",                                                 // Ural	
     "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
     "CUP_O_BTR80_CHDKZ",                                                // BTR-80
     "CUP_O_BTR80_CHDKZ",                                                // BTR-80
+    "CUP_O_BTR80_CHDKZ",                                                // BTR-80	
     "CUP_O_BMP_HQ_CHDKZ",                                               // BMP-2K
     "CUP_O_BMP_HQ_CHDKZ",                                               // BMP-2K
     "CUP_O_ZSU23_ChDKZ",                                                // ZSU-23-4
@@ -125,16 +131,20 @@ KPLIB_o_battleGrpVehicles = [
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 KPLIB_o_battleGrpVehiclesLight = [
 	"CUP_O_Ural_CHDKZ",                                                 // Ural
+	"CUP_O_Ural_CHDKZ",                                                 // Ural
 	"CUP_O_Ural_CHDKZ",                                                 // Ural	
-    "CUP_O_UAZ_MG_CHDKZ",                                               // UAZ (DShKM)
-    "CUP_O_MTLB_pk_ChDKZ",                                              // MT-LB LV
+    "CUP_O_Tigr_233014_PK_CHDKZ",                                       // Gaz Tigr STS(PK)
     "CUP_O_BRDM2_CHDKZ",                                                // BRDM-2
+    "CUP_O_BRDM2_CHDKZ",                                                // BRDM-2	
+    "CUP_O_BMP2_CHDKZ",                                                 // BMP-2
+    "CUP_O_BMP2_CHDKZ",                                                 // BMP-2
     "CUP_O_BMP2_CHDKZ",                                                 // BMP-2	
     "CUP_O_Ural_ZU23_CHDKZ",                                            // Ural (ZU-23)
     "CUP_O_Ural_ZU23_CHDKZ",                                            // Ural (ZU-23)	
     "CUP_O_T55_CHDKZ",                                                  // T-55
     "CUP_O_T72_CHDKZ",                                                  // T-72	
     "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
+    "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB	
     "CUP_O_Mi8_CHDKZ"                                                   // Mi-8MT	
 ];
 
@@ -144,7 +154,6 @@ KPLIB_o_troopTransports = [
 	"CUP_O_Ural_CHDKZ",                                                 // Ural
     "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
     "CUP_O_BTR80_CHDKZ",                                                // BTR-80
-    "CUP_O_MTLB_pk_ChDKZ",                                              // MT-LB LV
     "CUP_O_BMP_HQ_CHDKZ",                                               // BMP-2
     "CUP_O_Mi8_CHDKZ",                                                  // Mi-8MT
     "CUP_O_Mi8_RU"                                                      // Mi-8MTV3	

@@ -84,6 +84,11 @@ KPLIB_medical_vehicles = [
     "uns_uh1D_med",
     "vn_b_air_uh1d_01_01",
     "C_Cher90s_Civ_Amb",
+	"sfp_tgb1314",
+	"Flex_CUP_NOR_Lifeboat",
+	"Flex_CUP_NOR_Truck_01_medical",
+	"Flex_CUP_NOR_M113A3_Med",
+	"sfp_hkp16_medevac",
     "vn_b_wheeled_m54_repair_airport"
 ];
 
@@ -206,6 +211,8 @@ KPLIB_aiResupplySources = [
     "uns_M113_ENG",
     "uns_M35A2_ammo",
     "uns_motorpool1_repair",
+	"Flex_CUP_NOR_M113A3_Reammo",
+	"Flex_CUP_NOR_Truck_01_ammo",
     "vn_b_wheeled_m54_ammo"
 ];
 
@@ -257,6 +264,8 @@ vehicle_repair_sources = [
     "uns_M113_ENG",
     "uns_M35A2_repair",
     "uns_motorpool1_repair",
+	"Flex_CUP_NOR_Truck_01_Repair",
+	"Flex_CUP_NOR_M113A3_Repair",
     "vn_b_wheeled_m54_repair"
 ];
 
@@ -311,6 +320,8 @@ vehicle_rearm_sources = [
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
+	"Flex_CUP_NOR_M113A3_Reammo",
+	"Flex_CUP_NOR_Truck_01_ammo",	
     "vn_b_wheeled_m54_ammo"
 ];
 
@@ -365,7 +376,8 @@ vehicle_refuel_sources = [
     "uns_M113_ENG",
     "uns_M35A2_fuel",
     "uns_M35A2_fueltanker",
-    "vn_b_wheeled_m54_fuel"
+    "vn_b_wheeled_m54_fuel",
+	"Flex_CUP_NOR_Truck_01_fuel"
 ];
 
 // Classnames of boats, so they can be built on water.
@@ -413,7 +425,11 @@ boats_names = [
 	"B_W_Boat_Transport_01_F",
 	"B_T_Boat_Armed_01_minigun_F",
 	"FP_Spetsnaz_Alpha_RHIB",
-	"FP_Spetsnaz_Alpha_Speedboat"
+	"FP_Spetsnaz_Alpha_Speedboat",
+	"Flex_CUP_NOR_Boat_Transport",
+	"Flex_CUP_NOR_Lifeboat",
+	"Flex_CUP_NOR_RHIB",
+	"Flex_CUP_NOR_RHIB2Turret"
 ];
 
 // Classnames of artillery vehicles, which should be added to the support module
@@ -528,6 +544,8 @@ KPLIB_param_supportModule_artyVeh = [
     "CUP_O_Hilux_MLRS_TK_INS",
     "CUP_O_Hilux_podnos_TK_INS",
     "CUP_O_Hilux_UB32_TK_INS",
+	"Flex_CUP_NOR_Mortar",
+	"Flex_CUP_NOR_M119",
     "I_E_Mortar_01_F",
     "I_E_Truck_02_MRL_F",
     "I_G_Mortar_01_F",

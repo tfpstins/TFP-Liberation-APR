@@ -74,6 +74,7 @@ switch (KPLIB_presetResistance) do {
     case  6: {[] call compile preprocessFileLineNumbers "presets\resistance\unsung.sqf";};
     case  7: {[] call compile preprocessFileLineNumbers "presets\resistance\cup_takistan.sqf";};
     case  8: {[] call compile preprocessFileLineNumbers "presets\resistance\cup_napa.sqf";};
+    case  9: {[] call compile preprocessFileLineNumbers "presets\resistance\cup_norwaysf.sqf";};	
     default  {[] call compile preprocessFileLineNumbers "presets\resistance\custom.sqf";};
 };
 

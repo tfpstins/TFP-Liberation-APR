@@ -46,7 +46,7 @@ KPLIB_o_fuelTruck = "CUP_O_Ural_Refuel_CHDKZ";                          // Ural 
 KPLIB_o_ammoTruck = "CUP_O_Ural_Reammo_CHDKZ";                          // Ural (Ammo)
 KPLIB_o_fuelContainer = "B_Slingload_01_Fuel_F";                        // Huron Fuel Container
 KPLIB_o_ammoContainer = "B_Slingload_01_Ammo_F";                        // Huron Ammo Container
-KPLIB_o_flag = "FlagCarrierINS";                                        // Flag
+KPLIB_o_flag = "sfp_flagcarrier_soviet";                                // Flag
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
 Therefore, adding the same value twice or three times means they are more likely to be chosen more often. */
@@ -79,30 +79,25 @@ KPLIB_o_armyVehicles = [
     "CUP_O_Hilux_zu23_CHDKZ",                                           // Hilux (ZU-23)
     "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
     "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
-    "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
     "CUP_O_BTR80_CHDKZ",                                                // BTR-80
-    "CUP_O_BTR80A_CHDKZ",                                               // BTR-80A
     "CUP_O_BMP2_CHDKZ",                                                 // BMP-2
     "CUP_O_BMP2_CHDKZ",                                                 // BMP-2
     "CUP_O_BMP_HQ_CHDKZ",                                               // BMP-2K
     "CUP_O_ZSU23_Afghan_ChDKZ",                                         // ZSU-23-4 Afghanski
-    "CUP_O_ZSU23_ChDKZ",                                                // ZSU-23-4
     "CUP_O_T55_CHDKZ",                                                  // T-55
     "CUP_O_T55_CHDKZ",                                                  // T-55
-    "CUP_O_T55_CHDKZ",                                                  // T-55
-    "CUP_O_T72_CHDKZ",                                                  // T-72
     "CUP_O_T72_CHDKZ"                                                   // T-72
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 KPLIB_o_armyVehiclesLight = [
     "CUP_O_Hilux_DSHKM_CHDKZ",                                          // Hilux (DShKM)
-	"CUP_O_Hilux_AGS30_CHDKZ",                                          // Hilux (AGS-30)
+    "CUP_O_Hilux_zu23_CHDKZ",                                           // Hilux (ZU-23)	
     "CUP_O_Hilux_SPG9_CHDKZ",                                           // Hilux (SPG-9)
+    "CUP_O_Tigr_233014_PK_CHDKZ",                                       // Gaz Tigr STS(PK)	
     "CUP_O_MTLB_pk_ChDKZ",                                              // MT-LB LV
     "CUP_O_BRDM2_CHDKZ",                                                // BRDM-2
-    "CUP_O_Hilux_zu23_CHDKZ",                                           // Hilux (ZU-23)
-    "CUP_O_BTR60_CHDKZ"                                                 // BTR-60PB
+    "CUP_O_BMP2_CHDKZ"                                                  // BMP-2
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
@@ -115,7 +110,6 @@ KPLIB_o_battleGrpVehicles = [
     "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
     "CUP_O_BTR80_CHDKZ",                                                // BTR-80
     "CUP_O_BTR80_CHDKZ",                                                // BTR-80
-    "CUP_O_BTR80A_CHDKZ",                                               // BTR-80A
     "CUP_O_BMP_HQ_CHDKZ",                                               // BMP-2K
     "CUP_O_BMP_HQ_CHDKZ",                                               // BMP-2K
     "CUP_O_ZSU23_ChDKZ",                                                // ZSU-23-4
@@ -150,9 +144,8 @@ KPLIB_o_troopTransports = [
 	"CUP_O_Ural_CHDKZ",                                                 // Ural
     "CUP_O_BTR60_CHDKZ",                                                // BTR-60PB
     "CUP_O_BTR80_CHDKZ",                                                // BTR-80
-    "CUP_O_BTR80A_CHDKZ",                                               // BTR-80A
     "CUP_O_MTLB_pk_ChDKZ",                                              // MT-LB LV
-    "CUP_O_BMP2_CHDKZ",                                                 // BMP-2
+    "CUP_O_BMP_HQ_CHDKZ",                                               // BMP-2
     "CUP_O_Mi8_CHDKZ",                                                  // Mi-8MT
     "CUP_O_Mi8_RU"                                                      // Mi-8MTV3	
 ];

@@ -448,12 +448,8 @@ _player addAction[
     true,
     "",
     "
-        isNull (objectParent _originalTarget) &&
+      isNull (objectParent _originalTarget) &&
         alive _originalTarget &&
-        (
-            _originalTarget getVariable ['KPLIB_fobDist', 99999] < 20 ||
-            _originalTarget getVariable ['KPLIB_isNearStart', false]
-        ) &&
         (
             _originalTarget getVariable ['KPLIB_hasDirectAccess', false] ||
             [5] call KPLIB_fnc_hasPermission

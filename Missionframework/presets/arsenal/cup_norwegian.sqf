@@ -170,9 +170,27 @@ KPLIB_arsenalMagazines = [
 	"CUP_30Rnd_556x45_PMAG_OD_RPL_Tracer_Red",                          // 30rnd 5.56 PMAG Ranger Plate (OD/Red Tracer) Mag
 	"CUP_30Rnd_556x45_PMAG_OD_RPL_Tracer_Yellow",                       // 30rnd 5.56 PMAG Ranger Plate (OD/Yellow Tracer) Mag
 	"CUP_30Rnd_556x45_PMAG_OD_RPL",                                     // 30rnd 5.56 PMAG Ranger Plate (OD) Mag
+	"ACE_30Rnd_556x45_Stanag_M995_AP_mag",                              // 30rnd 5.56 M995 AP (ACE)
+	"ACE_30Rnd_556x45_Stanag_Mk262_mag",                                // 30rnd 5.56 Mk262 (ACE)
+	"ACE_30Rnd_556x45_Stanag_Mk318_mag",                                // 30rnd 5.56 Mk318 (ACE)
+	"ACE_30Rnd_556x45_Stanag_Tracer_Dim",                               // 30rnd 5.56 Tracer IR-DIM (ACE)
 	"CUP_20Rnd_762x51_HK417_Camo_Desert",                               // 20rnd 7.62 HK417 Mag	(Desert)
 	"CUP_20Rnd_762x51_HK417_Camo_Wood",                                 // 20rnd 7.62 HK417 Mag	(Woodland)	
 	"CUP_20Rnd_762x51_HK417",                                           // 20rnd 7.62 HK417 Mag
+	"ACE_10Rnd_762x51_Mag_Tracer_Dim",                                  // 10rnd 7.62 Tracer IR-DIM (ACE)
+	"ACE_10Rnd_762x51_M118LR_Mag",                                      // 10rnd 7.62 M118LR (ACE)
+	"ACE_10Rnd_762x51_M993_AP_Mag",                                     // 10rnd 7.62 M993 AP (ACE)
+	"ACE_10Rnd_762x51_Mk316_Mod_0_Mag",                                 // 10rnd 7.62 Mk316 Mod0 (ACE)
+	"ACE_10Rnd_762x51_Mk319_Mod_0_Mag",                                 // 10rnd 7.62 Mk319 Mod0 (ACE)
+	"ACE_10Rnd_762x51_Mag_SD",
+	"ACE_10Rnd_762x51_Mag_Tracer",
+	"ACE_20Rnd_762x51_Mag_Tracer_Dim",
+	"ACE_20Rnd_762x51_M118LR_Mag",
+	"ACE_20Rnd_762x51_M993_AP_Mag",
+	"ACE_20Rnd_762x51_Mk316_Mod_0_Mag",
+	"ACE_20Rnd_762x51_Mk319_Mod_0_Mag",
+	"ACE_20Rnd_762x51_Mag_SD",
+	"ACE_20Rnd_762x51_Mag_Tracer",
 	"CUP_20Rnd_TE1_Green_Tracer_762x51_G3",                             // 20rnd 7.62 G3 (Green Tracer) Mag
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_G3",                               // 20rnd 7.62 G3 (Red Tracer) Mag
 	"CUP_20Rnd_TE1_Yellow_Tracer_762x51_G3",                            // 20rnd 7.62 G3 (Yellow Tracer) Mag
@@ -201,6 +219,9 @@ KPLIB_arsenalMagazines = [
 	"CUP_40Rnd_46x30_MP7_Red_Tracer",                                   // 40rnd 4.6mm MP7 (Red Tracer) Mag
 	"CUP_40Rnd_46x30_MP7_Yellow_Tracer",                                // 40rnd 4.6mm MP7 (Yellow Tracer) Mag
 	"CUP_10Rnd_127x99_M107",                                            // 12.7mm 10rnd M107 Mag
+	"ACE_10Rnd_127x99_Mag",
+	"ACE_10Rnd_127x99_AMAX_Mag",
+	"ACE_10Rnd_127x99_API_Mag",
 	"CUP_1Rnd_12Gauge_Pellets_No0_Buck",                                // 12 Gauge 1rnd #0 Buckshot
 	"CUP_1Rnd_12Gauge_Pellets_No00_Buck",                               // 12 Gauge 1rnd #00 Buckshot
 	"CUP_1Rnd_12Gauge_Pellets_No1_Buck",                                // 12 Gauge 1rnd #1 Buckshot
@@ -465,9 +486,6 @@ KPLIB_arsenalItems = [
 	"CUP_I_B_PMC_Unit_31",
 	"CUP_I_B_PMC_Unit_32",
 	"CUP_I_B_PMC_Unit_35",
-    "CUP_U_CRYE_RGR_Full",
-    "CUP_U_CRYE_RGR_Roll",
-    "CUP_U_I_GUE_Anorak_02",
 
     // Headgear
 	"NOR_Opscore_SF",
@@ -514,15 +532,6 @@ KPLIB_arsenalItems = [
 	"sfp_ollesbrorsa_gray",
 	"sfp_ollesbrorsa_gray_alt",
 	"sfp_ollesbrorsa_green_alt",
-    "CUP_H_USA_Cap_AU_DEF",
-    "CUP_H_PMC_Cap_Back_Tan",
-    "CUP_H_PMC_Cap_Back_Grey",
-    "CUP_H_USA_Cap_NY_DEF",
-    "CUP_H_USA_Cap_UT_DEF",
-    "CUP_H_USA_Cap_TREAD_DEF",
-    "FIR_JHMCS",
-    "H_PilotHelmetHeli_B",
-    "H_HelmetCrew_I",
 	
     // Facegear
 	"CUP_RUS_Balaclava_blk",
@@ -594,17 +603,6 @@ KPLIB_arsenalItems = [
 	"V_TacChestrig_oli_F",
 	"CUP_V_B_GER_Carrier_Rig_2_Brown",
 	"CUP_V_B_GER_Carrier_Rig_3_Brown",
-    "CUP_V_B_Ciras_Black",
-    "CUP_V_B_Ciras_Black2",
-    "CUP_V_B_Ciras_Khaki",
-    "CUP_V_B_Ciras_Khaki2",
-    "CUP_V_B_Ciras_Olive",
-    "CUP_V_B_Ciras_Olive2",
-    "CUP_V_CPC_communicationsbelt_rngr",
-    "CUP_V_CPC_Fastbelt_rngr",
-    "CUP_V_CPC_medicalbelt_rngr",
-    "CUP_V_CPC_tlbelt_rngr",
-    "CUP_V_CPC_weaponsbelt_rngr",
 
 	// NVGs
 	"CUP_NVG_PVS15_black",											    // AN-PVS15
@@ -842,6 +840,7 @@ KPLIB_arsenalItems = [
 ];
 
 KPLIB_arsenalBackpacks = [
+
 	// Backpacks
 	"B_AssaultPack_rgr",
 	"B_AssaultPack_cbr",

@@ -162,6 +162,7 @@ KPLIB_b_objectsDeco = [
     ["TFPflag",0,0,0],
     ["Land_Medevac_house_V1_F",0,0,0],
     ["Land_Medevac_HQ_V1_F",0,0,0],
+	["Land_Cargo10_military_green_F",0,0,0],
     ["CamoNet_BLUFOR_open_F",0,0,0],
     ["CamoNet_BLUFOR_F",0,0,0],
     ["CamoNet_BLUFOR_big_F",0,0,0],

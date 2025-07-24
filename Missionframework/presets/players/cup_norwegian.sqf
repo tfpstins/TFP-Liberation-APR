@@ -174,6 +174,7 @@ KPLIB_b_objectsDeco = [
     ["Land_LampAirport_F",0,0,0],
     ["Land_HelipadCircle_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
     ["Land_HelipadRescue_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
+	["Land_HelipadCivil_F",0,0,0],                                      // KP Cratefiller crate spawn point
     ["PortableHelipadLight_01_blue_F",0,0,0],
     ["PortableHelipadLight_01_green_F",0,0,0],
     ["PortableHelipadLight_01_red_F",0,0,0],

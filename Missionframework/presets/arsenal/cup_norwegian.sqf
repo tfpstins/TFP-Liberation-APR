@@ -1,6 +1,6 @@
 /*
     TFP Norwegian Arsenal Preset [Mehland Campaign]
-    Last Update: 2025-07-15
+    Last Update: 2025-07-24
 
     Needed:
         - ACE  - https://steamcommunity.com/sharedfiles/filedetails/?id=463939057
@@ -8,9 +8,6 @@
 
 		
     Optional:
-        - Immersion Cigs - https://steamcommunity.com/sharedfiles/filedetails/?id=753946944
-		- Portable drone - https://steamcommunity.com/sharedfiles/filedetails/?id=2193193979
-		- FPV Drone Crocus - https://steamcommunity.com/sharedfiles/filedetails/?id=3045129955&searchtext=fpv
 */
 
 KPLIB_arsenalWeapons = [
@@ -854,12 +851,16 @@ KPLIB_arsenalBackpacks = [
 	"B_Kitbag_sgg",
 	"NOR_Predator_Backpack",
 	"NOR_Predator_Radio_Backpack",
+	"CUP_B_Kombat_Olive",
+	"CUP_B_Kombat_Radio_Olive",
 	"CUP_B_AssaultPack_Coyote",
 	"sfp_ra180",
 	"sfp_stridssack2000_ra_ksk90",
 	"sfp_stridssack2000_ra_ksk12",
 	"sfp_backpack_stridssack2000",
 	"sfp_backpack_grg_loader",
+	"B_Parachute",
+	"ACE_NonSteerableParachute",
 
 	// UAV Bags
 	"B_UAV_06_backpack_F",

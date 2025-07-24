@@ -2,7 +2,7 @@
     File: KPLIB_config.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
     Date: 2017-10-16
-    Last Update: 2023-03-24
+    Last Update: 2025-07-25
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -92,9 +92,10 @@ KPLIB_presetEnemy = 15;
     5  = Germany (Global Mobilization)
     6  = Unsung
     7  = CUP Takistani Locals
-    8  = CUP National Party of Chernarus
+    8  = CUP NAPA
+	9  = Norwegian SF
 */
-KPLIB_presetResistance = 0;
+KPLIB_presetResistance = 9;
 
 /*
     ----- Civilians preset -----
@@ -143,10 +144,10 @@ KPLIB_presetArsenal = 17;
 */
 
 // Player side.
-KPLIB_side_player = EAST;
+KPLIB_side_player = WEST;
 
 // Enemy side.
-KPLIB_side_enemy = WEST;
+KPLIB_side_enemy = EAST;
 
 // Resistance side.
 KPLIB_side_resistance = RESISTANCE;
@@ -386,6 +387,7 @@ KPLIB_battlegroup_clearance = [
     "song_bin_tanh",
     "khe_sanh",
     "lingor3",
+	"mehland",
     "Cam_Lao_Nam"
 ];
 

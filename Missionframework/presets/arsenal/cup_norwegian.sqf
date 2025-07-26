@@ -529,6 +529,13 @@ KPLIB_arsenalItems = [
 	"sfp_ollesbrorsa_gray",
 	"sfp_ollesbrorsa_gray_alt",
 	"sfp_ollesbrorsa_green_alt",
+    "H_HelmetCrew_I",
+    "H_PilotHelmetHeli_O",
+    "H_CrewHelmetHeli_O",
+    "H_PilotHelmetHeli_B",
+    "H_CrewHelmetHeli_B",
+    "FIR_HGU56P_Skull",
+    "FIR_hgu26p",
 	
     // Facegear
 	"CUP_RUS_Balaclava_blk",
@@ -600,6 +607,21 @@ KPLIB_arsenalItems = [
 	"V_TacChestrig_oli_F",
 	"CUP_V_B_GER_Carrier_Rig_2_Brown",
 	"CUP_V_B_GER_Carrier_Rig_3_Brown",
+    "CUP_V_PMC_CIRAS_OD_Patrol",
+    "CUP_V_PMC_CIRAS_OD_Veh",
+    "CUP_V_PMC_CIRAS_OD_Empty",
+    "CUP_V_PMC_CIRAS_OD_Grenadier",
+    "CUP_V_PMC_CIRAS_OD_TL",
+    "CUP_V_PMC_CIRAS_Khaki_Patrol",
+    "CUP_V_PMC_CIRAS_Khaki_Veh",
+    "CUP_V_PMC_CIRAS_Khaki_Empty",
+    "CUP_V_PMC_CIRAS_Khaki_Grenadier",
+    "CUP_V_PMC_CIRAS_Khaki_TL",
+    "CUP_V_PMC_CIRAS_Coyote_Patrol",
+    "CUP_V_PMC_CIRAS_Coyote_Veh",
+    "CUP_V_PMC_CIRAS_Coyote_Empty",
+    "CUP_V_PMC_CIRAS_Coyote_Grenadier",
+    "CUP_V_PMC_CIRAS_Coyote_TL",
 
 	// NVGs
 	"CUP_NVG_PVS15_black",											    // AN-PVS15
@@ -834,6 +856,10 @@ KPLIB_arsenalItems = [
     "TFAR_anprc148jem",                                                 // AN/PRC-148 JEM
 	"TFAR_anprc152",													// AN/PRC-152
     "TFAR_microdagr"                                                	// MicroDAGR Radio Programmer
+
+    // CTAB Items
+    "ItemAndroidMisc",
+    "ItemcTabMisc",
 ];
 
 KPLIB_arsenalBackpacks = [

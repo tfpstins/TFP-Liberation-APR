@@ -125,3 +125,24 @@ if (isServer) then {
 
 //VAM_GUI: For changing camo and vehicle appearence without Zeus:
 [] execVM "VAM_GUI\VAM_GUI_init.sqf";
+
+// Fortify around container trucks
+if (isServer) then {
+
+    [
+        "Flex_CUP_NOR_Truck_01_Repair",
+        "init",
+        {
+            params ["_vehicle", "_class"];
+            ace_fortify_locations pushBack [_vehicle, 50, 50, 0, false];
+        },
+        true
+    ] call CBA_fnc_addClassEventHandler;
+
+
+    {
+        if (typeOf _x == "Flex_CUP_NOR_Truck_01_Repair") then {
+            ace_fortify_locations pushBack [_x, 50, 50, 0, false];
+        };
+    } forEach vehicles;
+};

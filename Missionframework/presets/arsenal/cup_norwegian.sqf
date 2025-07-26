@@ -447,13 +447,7 @@ KPLIB_arsenalItems = [
 	"NOR_Combat_Uniform_Rolled",
 	"NOR_Gorka_Grey_Uniform_Pads",
 	"NOR_Gorka_Grey_Uniform",
-	"NOR_Gorka_Mixed_Uniform_Pads",
-	"NOR_Gorka_Mixed_Uniform",
-	"NOR_Gorka_Mixed_Alt_Uniform_Pads",
-	"NOR_Gorka_Mixed_Alt_Uniform",
-	"NOR_Gorka_Winter_Uniform",
 	"NOR_Gorka_Uniform_Pads",
-	"NOR_Gorka_Winter_Uniform_Pads",
 	"CUP_U_B_USArmy_PilotOverall",
 	"CUP_U_B_CZ_WDL_Ghillie",
 	"CUP_I_B_PMC_Unit_20",
@@ -853,7 +847,6 @@ KPLIB_arsenalItems = [
 	"ACE_wirecutter",                                               	// Wirecutter
 
     //TFAR Items
-    "TFAR_anprc148jem",                                                 // AN/PRC-148 JEM
 	"TFAR_anprc152",													// AN/PRC-152
     "TFAR_microdagr"                                                	// MicroDAGR Radio Programmer
 

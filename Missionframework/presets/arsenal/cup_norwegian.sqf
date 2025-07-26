@@ -848,11 +848,11 @@ KPLIB_arsenalItems = [
 
     //TFAR Items
 	"TFAR_anprc152",													// AN/PRC-152
-    "TFAR_microdagr"                                                	// MicroDAGR Radio Programmer
+    "TFAR_microdagr",                                                	// MicroDAGR Radio Programmer
 
     // CTAB Items
     "ItemAndroidMisc",
-    "ItemcTabMisc",
+    "ItemcTabMisc"
 ];
 
 KPLIB_arsenalBackpacks = [

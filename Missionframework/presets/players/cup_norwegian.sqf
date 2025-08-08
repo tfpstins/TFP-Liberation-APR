@@ -103,6 +103,7 @@ KPLIB_b_vehLight = [
     ["sfp_tgb1314",120,0,60],                                           // Tgb 1314(MEDEVAC)
     ["Flex_CUP_NOR_Truck_01_transport",125,0,75],                       // HEMTT Transport (Open)
     ["Flex_CUP_NOR_Truck_01_covered",125,0,75],                         // HEMTT Transport (Covered)
+    ["Flex_CUP_NOR_Truck_01_cargo",125,0,75],                           // HEMTT Cargo
     ["Flex_CUP_NOR_Truck_01_medical",125,0,75],                         // HEMTT(MEDEVAC)
     ["Flex_CUP_NOR_Truck_01_flatbed",125,0,75],                         // HEMTT (Open/Flatbed)
     ["Flex_CUP_NOR_Boat_Transport",50,0,25],                            // Assault Boat
